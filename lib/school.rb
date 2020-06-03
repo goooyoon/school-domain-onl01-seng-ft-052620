@@ -5,7 +5,6 @@ class School
     @roster = {}
   end
 
-  def roster
-    @roster
+  def add_student
   end
 end
