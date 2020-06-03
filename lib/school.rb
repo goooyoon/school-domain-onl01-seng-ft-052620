@@ -9,6 +9,6 @@ class School
     unless @roster[grade]
     @roster[grade] = []
   end
-    @roster[grade]
+    @roster[grade] << name
   end
 end
